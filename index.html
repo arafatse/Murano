@@ -4,18 +4,9 @@
 <html>
     <head>
         <style>
-            #loadingMessage {
-            width: 100%;
-            height: 100%;
-            z-index: 1000;
-            background: #ff0000;
-            top: 0px;
-            left: 0px;
-            position: absolute;
-        }
-/*             .holds-the-iframe {
+            .holds-the-iframe {
             background:url("https://raw.githubusercontent.com/arafatse/Murano/main/Bean%20Eater-0.8s-800px%20(1).gif") center center no-repeat;
-        } */
+        }
             
             
         </style>
@@ -30,15 +21,7 @@
                 height="100%"
                 width="100%"
             ></iframe>
-            <div id="loadingMessage">Loading...</div>
         </div>
-        <script>
-        $('#foo').ready(function () {
-            $('#loadingMessage').css('display', 'none');
-        });
-        $('#foo').load(function () {
-            $('#loadingMessage').css('display', 'none');
-        });
-        </script>
+
     </body>
 </html>
